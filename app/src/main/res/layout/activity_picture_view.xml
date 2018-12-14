@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/toolbar_bg">
+    <include layout="@layout/layout_include_toolbar"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.github.chrisbanes.photoview.PhotoView
+            android:scaleType="fitCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/photo_view"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/include_toolbar_height"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginEnd="20dp">
+            <ImageView
+                android:background="@drawable/iv_bg_common"
+                android:clickable="true"
+                android:id="@+id/iv_share"
+                android:padding="6dp"
+                android:layout_width="@dimen/include_toolbar_height"
+                android:layout_height="@dimen/include_toolbar_height"
+                android:src="@mipmap/share"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="65dp"/>
+            <ImageView
+                android:background="@drawable/iv_bg_common"
+                android:clickable="true"
+                android:id="@+id/iv_download"
+                android:padding="8dp"
+                android:layout_marginEnd="10dp"
+                android:src="@mipmap/download01"
+                android:layout_width="@dimen/include_toolbar_height"
+                android:layout_height="@dimen/include_toolbar_height"
+                android:layout_alignParentEnd="true"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

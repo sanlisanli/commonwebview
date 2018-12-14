@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#69f0ae</color>
+    <color name="colorPrimaryDark">#69f0ae</color>
+    <color name="colorAccent">#69f0ae</color>
+    <color name="toolbar_bg">#424242</color>
+    <color name="snackbar_success">#69f0ae</color>
+    <color name="progressbar_color">#69f0ae</color>
+    <color name="snackbar_error">#f44336</color>
+    <color name="bg_common">#424242</color>
+    <color name="text_title">#212121</color>
+    <color name="text_content">#757575</color>
+    <color name="rv_bg">#e0e0e0</color>
+    <color name="statusbar_bg">#212121</color>
+</resources>
